@@ -55,13 +55,31 @@ const Home = () => {
 export default Home;
 
 const StyledNav = styled.nav`
-    min-height: 3vh;
+    min-height: 5vh;
     display: flex;
     margin: auto;
     justify-content: space-between;
     align-items: center;
     padding:1rem 10rem;
     background-color: transparent;
+    @media(max-width:1300px){
+      flex-direction: column;
+      padding:2rem 1rem;
+      h1{
+          display: inline-block;
+          margin:1rem;
+          justify-content: center;
+      }
+      ul{
+          padding:2rem;
+          justify-content: space-around;
+          width:100%;
+          li{
+          padding:0;
+      }
+      };
+       
+    };
     
     h1{
         font-size: 1.8rem;
