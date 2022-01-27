@@ -22,4 +22,5 @@ const Lorem = styled.div`
     margin: auto;
     color:white;
     font-family: 'Raleway', sans-serif;
+    
 `;

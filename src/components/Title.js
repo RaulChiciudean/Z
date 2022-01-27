@@ -23,4 +23,7 @@ const Text = styled.div`
     p{
         font-family: 'Inconsolata', monospace;
     }
+    @media(max-width:1300px){
+      text-align: center;
+    };
 `;

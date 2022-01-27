@@ -45,6 +45,10 @@ const Footerr = styled.footer`
     justify-content: center;
     font-size: 120%;
     font-family: 'Raleway', sans-serif;
+    @media(max-width:1300px){
+      display: block;
+      padding-bottom:1rem;
+    };
 `;
 
 const Div1 = styled.div`
@@ -55,7 +59,13 @@ const Div1 = styled.div`
     }
     p{
         font-family: 'Inconsolata', monospace;
-    }
+    };
+    @media(max-width:1300px){
+      display: block;
+      .p1{
+          width:100%;
+      }
+    };
 `;
 
 const Div2 = styled.div`

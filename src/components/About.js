@@ -4,8 +4,8 @@ import cocktail from '../images/cocktail.jpg';
 import barman from '../images/barman.jpg';
 import bar from '../images/bar.jpg';
 
-const About = () =>{
-    return(
+const About = () => {
+    return (
         <MainDiv>
             <div>
                 <CocktailImage src={cocktail} alt="" />
@@ -22,6 +22,19 @@ const About = () =>{
 
 export default About;
 
+const MainDiv = styled.div`
+    display:flex;
+    justify-content:center;
+    margin:3rem;
+    @media(max-width:1300px){
+      display: block;
+      img{
+          width:100%;
+          padding:1rem;
+      }
+    };
+`;
+
 const CocktailImage = styled.img`
     width:80%;
     height:50vh;
@@ -32,12 +45,6 @@ const BarmanImage = styled.img`
     width:80%;
     height:50vh;
     object-fit:cover;
-`;
-
-const MainDiv = styled.div`
-    display:flex;
-    justify-content:center;
-    margin:3rem;
 `;
 
 const BarImage = styled.img`

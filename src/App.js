@@ -9,10 +9,12 @@ import About from './components/About';
 import LoremText from './components/Text';
 import FooterPage from './components/Footer';
 import Title2 from './components/Title2';
+import Navbar from './components/Nav';
 
 function App() {
   return (
     <div className="App">
+      {/* <Navbar /> */}
       <GlobalStyle />
       <Home />
       <Program />

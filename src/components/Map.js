@@ -20,5 +20,10 @@ const MainDiv = styled.div`
     display:flex;
     justify-content:center;
     margin: 2rem;
+    @media(max-width:1300px){
+      width: 100%;
+      margin:0;
+      padding:1rem;
+    };
 `;
 

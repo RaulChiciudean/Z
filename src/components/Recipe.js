@@ -39,6 +39,12 @@ const MainDiv = styled.div`
     width:100%;
     justify-content:center;
     font-family: 'Raleway', sans-serif;
+    @media(max-width:1300px){
+      display: block;
+      img{
+        width:100%;
+      }
+    };
 `;
 
 const Image = styled.img`
